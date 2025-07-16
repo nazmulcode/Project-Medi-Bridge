@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Med Bridge</title>
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-6 py-4 shadow-sm">
+    <div class="font-bold text-xl text-[#4c5252] flex gap-2"><img src="./images/Logo.png" alt="logo"> Medi Bridge</div>
+    <nav class="hidden md:flex gap-6 text-sm">
+      <a href="#">About Us</a>
+      <a href="#">Features</a>
+      <a href="#">Find Doctor</a>
+      <a href="#">Blog</a>
+    </nav>
+    <div class="flex gap-2.5">
+      <button class="text-sm border border-gray-200 bg-gray-50 px-4 py-2 rounded">Log in</button>
+      <button class="bg-[#017d6e] text-white px-4 py-2 rounded text-sm">Register</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="flex flex-col-reverse md:flex-row md:justify-between items-center gap-10 px-6 py-16">
+    <div class="md:w-1/2 space-y-4">
+      <span class="text-teal-600 text-sm font-semibold ">✔️ Top-rated healthcare service</span>
+      <h1 class="text-3xl md:text-6xl font-bold mt-2">Transforming Healthcare for a Better Tomorrow</h1>
+      <p class="text-gray-600 text-lg">With a focus on innovation, compassion, and personalized
+        care, we are committed to guiding you towards a healthier and more vibrant tomorrow.</p>
+      <div class="flex gap-3 mt-4">
+        <button class="bg-teal-600 text-white px-5 py-2 rounded">Get Started</button>
+        <button class="border border-gray-200 px-5 py-2 rounded">Learn More</button>
+      </div>
+    </div>
+    <div class="md:w-1/2">
+      <img src="./images/hero-img.png" alt="Doctor" class=" w-full" />
+    </div>
+  </section>
+
+  <!-- Trusted Logos -->
+  <section class="bg-gray-50 py-8 px-6 text-center">
+    <p class="text-sm  text-[#8c8c8c] mb-6">Trusted by</p>
+    <div class="flex justify-center gap-10 flex-wrap opacity-70">
+      <div class="flex items-center gap-2">
+        <img src="./images/trust_icon.png" alt="Logo" />
+        <span class="text-[#757575] font-semibold text-lg">Logoipsum</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <img src="./images/trust_icon2.png" alt="Logo" />
+        <span class="text-[#757575] font-semibold text-lg">Logoipsum</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <img src="./images/trust_icon.png" alt="Logo" />
+        <span class="text-[#757575] font-semibold text-lg">Logoipsum</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <img src="./images/trust_icon2.png" alt="Logo" />
+        <span class="text-[#757575] font-semibold text-lg">Logoipsum</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <img src="./images/trust_icon.png" alt="Logo" />
+        <span class="text-[#757575] font-semibold text-lg">Logoipsum</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="px-6 py-16 text-center">
+    <h2 class="text-2xl md:text-5xl w-[55%] mx-auto font-bold mb-4">Experience the Difference in Our Healthcare Approach
+    </h2>
+    <p class="text-gray-600 mb-10">Transform your healthcare journey with our innovative and personalized approach</p>
+    <div class="grid gap-6 md:grid-cols-4">
+      <div class="border p-6 rounded-lg">
+        <img class=" bg-[#017d6e] mx-auto mb-2 py-3 px-3 rounded-full" src="./images/cart_icon1.png" alt="icon">
+        <h3 class="font-semibold text-lg mb-2">Expert Care</h3>
+        <p class="text-sm text-gray-600">Our team of experienced healthcare professionals is dedicated to providing the
+          highest quality.</p>
+      </div>
+
+      <div class="border p-6 rounded-lg">
+        <img class=" bg-[#017d6e] mx-auto mb-2 py-3 px-3 rounded-full" src="./images/cart_icon2.png" alt="icon">
+        <h3 class="font-semibold text-lg mb-2">Personalized Approach</h3>
+        <p class="text-sm text-gray-600">We understand that every patient is unique, which is why we tailor our services
+          to meet your needs.</p>
+      </div>
+      <div class="border p-6 rounded-lg">
+        <img class=" bg-[#017d6e] mx-auto mb-2 py-3 px-3 rounded-full" src="./images/cart_icon3.png" alt="icon">
+        <h3 class="font-semibold text-lg mb-2">Focus on Wellness</h3>
+        <p class="text-sm text-gray-600">Beyond treating illness, we emphasize preventive care and wellness promotion.
+        </p>
+      </div>
+      <div class="border p-6 rounded-lg">
+        <img class=" bg-[#017d6e] mx-auto mb-2 py-3 px-3 rounded-full" src="./images/cart_icon4.png" alt="icon">
+        <h3 class="font-semibold text-lg mb-2">Community Connection</h3>
+        <p class="text-sm text-gray-600">We are deeply rooted in the local community and are committed to serving and
+          giving back.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialized Offerings -->
+  <section class="px-6 py-16 bg-gray-50">
+    <div class="md:flex items-center gap-12">
+      <img src="./images/specialized_img.png" alt="Service" class="rounded-lg shadow w-full md:w-1/2 mb-6 md:mb-0" />
+      <div class="md:w-1/2 space-y-4">
+        <h2 class="text-2xl md:text-3xl font-bold">Unveiling a Spectrum of Specialized Offerings</h2>
+        <p class="text-gray-600">Discover a tailored approach to your health with our versatile range of specialized
+          services, ensuring every aspect of
+          your healthcare journey is seamlessly addressed.</p>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="flex items-center gap-2 border border-gray-200 rounded-lg w-fit py-3 px-3">
+            <img src="./images/spe_icon.png" alt="icon">
+            <span>Diagnostic Imaging</span>
+          </div>
+          <div class="flex items-center gap-2 border border-gray-200 rounded-lg w-fit py-3 px-3">
+            <img src="./images/spe_icon.png" alt="icon">
+            <span>Therapeutic Services</span>
+          </div>
+          <div class="flex items-center gap-2 border border-gray-200 rounded-lg w-fit py-3 px-3">
+            <img src="./images/spe_icon.png" alt="icon">
+            <span>Home Healthcare</span>
+          </div>
+          <div class="flex items-center gap-2 border border-gray-200 rounded-lg w-fit py-3 px-3">
+            <img src="./images/spe_icon.png" alt="icon">
+            <span>Mental Health Services</span>
+          </div>
+          <div class="flex items-center gap-2 border border-gray-200 rounded-lg w-fit py-3 px-3">
+            <img src="./images/spe_icon.png" alt="icon">
+            <span>Rehabilitation Services</span>
+          </div>
+          <div class="flex items-center gap-2 border border-gray-200 rounded-lg w-fit py-3 px-3">
+            <img src="./images/spe_icon.png" alt="icon">
+            <span>Geriatric Care</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="px-6 py-16 text-center">
+    <h2 class="text-2xl md:text-3xl md:w-[35%] mx-auto font-bold mb-10">Meet the Healthcare Heroes Ready to Serve You
+    </h2>
+    <div class="grid gap-6 md:grid-cols-3">
+      <div class="p-4">
+        <img src="./images/heros-img.png" class=" mx-auto mb-4" />
+        <h4 class="font-semibold">Dr. Henry Marcelo</h4>
+        <p class="text-sm text-gray-500">Endocrinologist</p>
+        <p class="text-teal-600 font-bold text-sm mt-1">$64 / visit</p>
+      </div>
+      <div class="p-4">
+        <img src="./images/heros-img2.png" class=" mx-auto mb-4" />
+        <h4 class="font-semibold">Dr. Putri Raviola</h4>
+        <p class="text-sm text-gray-500">Cardiologist</p>
+        <p class="text-teal-600 font-bold text-sm mt-1">$72 / visit</p>
+      </div>
+      <div class="p-4">
+        <img src="./images/heros-img3.png" class=" mx-auto mb-4" />
+        <h4 class="font-semibold">Dr. Niky Jeremiah</h4>
+        <p class="text-sm text-gray-500">Dermatologist</p>
+        <p class="text-teal-600 font-bold text-sm mt-1">$48 / visit</p>
+      </div>
+    </div>
+    <button class="mt-8 bg-gray-50 border border-gray-200 text-sm px-6 py-2 rounded">See All Doctors</button>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="px-6 py-16 bg-gray-50 text-center">
+    <h2 class="text-2xl md:text-3xl md:w-[30%] mx-auto font-bold mb-10">See What Our Patients Have to Say</h2>
+    <div class="grid gap-6 md:grid-cols-3">
+      <div class="p-6 border border-gray-200 rounded-2xl text-left ">
+        <p class="text-sm">"Medi Bridge has been a true lifesaver for me and my family. When my father fell ill, we
+          turned to them for help, and
+          they exceeded our expectations in every way."</p>
+        <div class="flex items-center gap-3 mt-52">
+          <img src="./images/test_img1.png" class="rounded-full" />
+          <div>
+            <p class="font-semibold text-sm">Mecca Rachel</p>
+            <span>24 years old</span>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <img src="./images/test-img2.png" class="w-screen" />
+      </div>
+      <div class="p-6 border border-gray-200 rounded-2xl text-left">
+        <p class="text-sm mb-4">"I've been a patient at Medi Bridge for years, and they consistently deliver outstanding care. Their dedication to
+        patient well-being is evident in every interaction."</p>
+        <div class="flex items-center gap-3 mt-52">
+          <img src="./images/test-img3.png" class="rounded-full" />
+          <div>
+            <p class="font-semibold text-sm">Adam ackson</p>
+            <span>27 years old</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="px-6 py-16">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
+    <div class="max-w-3xl mx-auto space-y-4">
+      <details class="p-4 border rounded">
+        <summary class="cursor-pointer font-semibold">How do I schedule an appointment?</summary>
+        <p class="mt-2 text-sm text-gray-600">Scheduling an appointment at Medi Bridge is easy. You can call our office directly or use our online appointment booking
+        system on our website. Simply select your preferred date and time, and our staff will confirm your appointment promptly.</p>
+      </details>
+      <details class="p-4 border rounded">
+        <summary class="cursor-pointer font-semibold">What types of services do you offer?</summary>
+        <p class="mt-2 text-sm text-gray-600">We offer diagnostic imaging, lab services, therapy, and outpatient care.
+        </p>
+      </details>
+      <details class="p-4 border rounded">
+        <summary class="cursor-pointer font-semibold">Are walk-in appointments available?</summary>
+        <p class="mt-2 text-sm text-gray-600">Yes, subject to availability at your local clinic.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-[#017d6e] max-w-6xl mx-auto text-white px-6 py-12 text-center rounded-t-lg">
+    <h2 class="text-2xl md:text-3xl font-bold mb-3">Discover Comprehensive Care Tailored to Your Needs</h2>
+    <p class="mb-6">Experience personalized healthcare solutions designed to prioritize your well-being</p>
+    <button class="bg-white text-teal-700 px-6 py-2 rounded">Make an Appointment</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="px-6 py-12 bg-gray-100 text-sm text-gray-600">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
+      <div>
+        <div class="font-bold text-lg text-teal-600 mb-2 flex gap-2"><img src="./images/Logo.png" alt="logo"> Medi Bridge</div>
+        <p>Empowering Health, Inspiring Lives.</p>
+      </div>
+      <div>
+        <p class="font-semibold mb-1">Company</p>
+        <ul class="space-y-1">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold mb-1">Services</p>
+        <ul class="space-y-1">
+          <li><a href="#">Clinics</a></li>
+          <li><a href="#">Healthcare</a></li>
+          <li><a href="#">Training Center</a></li>
+          <li><a href="#">Online Consultation</a></li>                      
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold mb-1">Social Media</p>
+        <ul class="space-y-1">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">YouTube</a></li> 
+        </ul>
+      </div>
+    </div>
+    
+  </footer>
+
+</body>
+
+</html>
